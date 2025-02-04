@@ -1,9 +1,11 @@
 import React from 'react';
 import LoginForm from '../Components/LoginForm/LoginForm';
+import '../styling/Homepage.css';
 
 function HomePage() {
   return (
     <div>
+      {/* <h1> Welcome to Engine-Ez</h1> */}
       <LoginForm />
     </div>
   );
